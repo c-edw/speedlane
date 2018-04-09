@@ -1,0 +1,17 @@
+{
+  "name": "speedlane",
+  "version": "1.0.0",
+  "description": "A high performance HTTP router.",
+  "main": "./lib/speedlane.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "nyc": "^11.4.1"
+  },
+  "dependencies": {}
+}
